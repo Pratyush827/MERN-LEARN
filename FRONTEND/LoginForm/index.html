@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="page">
+        <div id="image">
+            <img src="pic1.jpg" alt="Background Image">
+        </div>
+        <div id="form">
+            <h1 id="title">Login</h1>
+            
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required />
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+                <a href="#">Forgot Password?</a>
+                    
+                <button type="submit">Login</button>
+                <p id="register">Don't have an account? <a href="#">Register</a></p>
+                <p id="error-message" style="color: red; display: none;">Invalid username or password.</p>
+                <p id="success-message" style="color: green; display: none;">Login successful!</p>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

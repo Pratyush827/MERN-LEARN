@@ -1,0 +1,35 @@
+1)  String Functions or Methods:
+            const a=["apple","banana","cherry","grape"];
+            const a2=["raddish","carrot","rice","pizza"]
+            console.log(a);
+            const b= a.push("berry");
+            console.log(a);
+            const c= a.shift("mango");
+            console.log(a);
+            const d=a.unshift("apple");
+            console.log(a);
+            const e=a.slice(2);
+            console.log(a);
+
+            const f= a.includes("apple");
+            console.log(f);
+            const g=a.indexOf("grape");
+            console.log(g);
+            const h= a.join(a2);
+            console.log(h);
+2) //mVC = model view content
+
+
+3) //try and catch error
+
+try{
+
+}console.log();
+catch(error){
+    console.log("An error occurred: " + error.message);
+}
+
+//ternary operator
+
+if a>b?console.log('a is greater'):console.log('b is greater');
+

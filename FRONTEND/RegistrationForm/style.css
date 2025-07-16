@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centered card container */
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 900px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+/* Left image section */
+.left {
+  flex: 2;
+  background-color: #4e4c4c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right form section */
+.right {
+  flex: 2;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  background-color: #4e4c4c;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.message a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
